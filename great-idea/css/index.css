@@ -64,3 +64,153 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.section.main-hero {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: space-around;
+	border-bottom: 1px solid black;
+}
+
+div.half {
+	float: left;
+	width: 48%;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 6px 5px 5px;
+}
+
+div.half.half2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+div.half.half2.half3 {
+	display: flex;
+	align-items: flex-start;
+}
+
+div.main-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.third {
+	float: left;
+	width: 32%;
+	padding: 5px;
+}
+
+nav {
+	margin-bottom: 5%;
+    background: #eee;
+    height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	padding: 12px 20px 0;
+	text-decoration: none;
+	color: #363636;
+}
+
+nav a:hover {
+    color: #fff;
+    transition: 0.5s ease-out;
+    background: #363636;
+    padding-bottom: 12px;
+}
+
+nav a:last-child:hover {
+    background: transparent;
+}
+
+section.main-hero {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	min-height: 340px;
+}
+
+section.main-hero h1 {
+	font-size: 74px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+a.hero-button {
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #363636;
+    padding: 6px 36px;
+    margin: 0 auto;
+	text-decoration: none;
+    color: #363636;
+}
+
+section.main-hero img {
+    float: right;
+}
+
+hr.divider {
+	margin: 60px auto 40px;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+img.middle-img {
+	margin: 40px 0;
+    width: 100%;
+}
+
+section.main-content {
+	min-height: 100px;
+}
+
+.content-section .tel {
+	margin: 20px 0;
+}
+
+p.copyright {
+	font-size: 14px;
+    text-align: center;
+    margin: 30px auto 60px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+/* Services Page */
+body section.main-hero > div:nth-child(2) > img {
+    background-size: cover;
+    width: 100%;
+}
+
+body > section:nth-child(4) > div:nth-child(1) > img {
+    background-size: cover;
+    width: 100%;
+}
