@@ -91,7 +91,7 @@ body {
 div.half {
 	float: left;
 	width: 48%;
-	margin-bottom: 30px;
+	margin: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -151,7 +151,6 @@ nav a:last-child:hover {
 section.main-hero {
 	margin-top: 100px;
 	margin-bottom: 100px;
-	min-height: 340px;
 }
 
 section.main-hero h1 {
@@ -174,19 +173,26 @@ section.main-hero img {
     float: right;
 }
 
+hr.divider-spacer {
+	margin: 30px auto;
+	border: none;
+}
+
 hr.divider {
 	margin: 60px auto 40px;
     border-top: 1px solid black;
     width: 100%;
 }
 
+hr.divider2 {
+	border-top: 2px solid black;
+	width: 100%;
+	margin: 60px auto;
+}
+
 img.middle-img {
 	margin: 40px 0;
     width: 100%;
-}
-
-section.main-content {
-	min-height: 100px;
 }
 
 .content-section .tel {
@@ -196,21 +202,57 @@ section.main-content {
 p.copyright {
 	font-size: 14px;
     text-align: center;
-    margin: 30px auto 60px;
+    /* margin: 30px auto 60px; */
 }
 
 p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+	line-height: 1.5em;
 }
 
 /* Services Page */
-body section.main-hero > div:nth-child(2) > img {
-    background-size: cover;
-    width: 100%;
+.services-header {
+	width: 100%;
 }
 
-body > section:nth-child(4) > div:nth-child(1) > img {
-    background-size: cover;
-    width: 100%;
+.services-title {
+	margin-top: 60px;
+}
+
+div.half.half2.half3.grey-box {
+    background: #eee;
+    padding: 19px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+a.learn-more-button {
+    background: #fff;
+    color: black;
+    text-decoration: none;
+    padding: 9px 28px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+a.learn-more-button:hover {
+    background: #363636;
+    color: #fff;
+    transition: ease-in-out 0.6s;
+}
+
+ul li {
+	list-style-type: square;
+	margin-left: 30px;
+    line-height: 30px;
+}
+
+.img-woman-pc {
+	width: 100%;
+}
+
+.footer {
+	margin: 60px auto;
 }
