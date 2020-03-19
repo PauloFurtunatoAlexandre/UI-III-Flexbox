@@ -110,6 +110,14 @@ div.half.half2.half3 {
 	align-items: flex-start;
 }
 
+.half.half2.half3:last-child {
+    margin-bottom: 50px;
+}
+
+div.half.half2.half3.grey-box:last-child {
+    margin-bottom: 40px;
+}
+
 div.main-content {
 	display: flex;
 	flex-direction: row;
@@ -222,8 +230,8 @@ p {
 
 div.half.half2.half3.grey-box {
     background: #eee;
-    padding: 19px;
-    margin: 5px;
+	padding: 30px;
+    margin: 10px;
     border: 1px solid black;
 }
 
